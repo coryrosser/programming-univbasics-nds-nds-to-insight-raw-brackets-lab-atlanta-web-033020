@@ -5,7 +5,7 @@ require 'pp'
 
 def directors_totals(nds)
    new_hash = {}
-   row_i = 0 
+   row_i = 0
    while row_i < nds.length do
      col_i = 0
      name = nds[row_i][:name]
