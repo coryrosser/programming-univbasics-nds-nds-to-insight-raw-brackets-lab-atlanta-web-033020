@@ -8,7 +8,6 @@ def directors_totals(nds)
    row_i = 0 
    while row_i < nds.length do
      total[name] = 0
-     movie = nds[row_i][:movies]
      name = nds[row_i][:name]
      col_i = 0 
      while col_i < movie.length do
